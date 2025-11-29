@@ -1,0 +1,10 @@
+.navbar {
+    color: #3b2f2f;
+}
+
+.navbar .logo {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
