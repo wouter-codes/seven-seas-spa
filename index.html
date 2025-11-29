@@ -7,12 +7,14 @@
     <title>Seven Seas SPA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e6f8ddc3b.js" crossorigin="anonymous"></script>
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#index.html"><img src="assets/images/7ss-logo.png" alt="Seven Seas Spa logo"
                     class="logo">Seven Seas Spa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,6 +39,192 @@
             </div>
         </div>
     </nav>
+
+    <section class="hero">
+        <div class="container-fluid hero-content">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <h1 class="hero-title">Welcome to Seven Seas Spa</h1>
+                    <p class="hero-subtitle">We are dedicated to improving your overall wellbeing</p>
+                    <a href="#" class="btn btn-light btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-start">
+                    <h2 class="services-title">Our Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/services/yoga.png" alt="Yoga Classes" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Yoga Classes</h4>
+                            <p class="card-text">Relax and rejuvenate with our professional massage therapy services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/services/nutrition.png" alt="Nutritional Advice" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Nutritional Advice</h4>
+                            <p class="card-text">Revitalize your skin with our premium facial treatments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/services/mental_health.png" alt="Mental Health Support"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Mental Health Support</h4>
+                            <p class="card-text">Pamper your body with our luxurious spa treatments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/services/wellness.png" alt="Wellness Programs" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Wellness Programs</h4>
+                            <p class="card-text">Achieve balance and wellness with our holistic programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wellness-tips">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="wellness-tips-title">Wellness Tips</h2>
+                    <p class="wellness-tips-text">Discover practical and easy-to-implement wellness tips to enhance your
+                        daily life. From stress management techniques to mindfulness practices, our expert
+                        recommendations will help you achieve a balanced and healthier lifestyle. Start your journey
+                        towards better well-being today with our curated collection of wellness advice:</p>
+                    <ul class="wellness-tips-list">
+                        <li>Practice daily meditation for at least 10-15 minutes to reduce stress and improve mental
+                            clarity</li>
+                        <li>Stay hydrated by drinking at least 8 glasses of water daily to support your body's natural
+                            functions</li>
+                        <li>Incorporate regular exercise into your routine, such as yoga or walking, at least 3-4 times
+                            a week</li>
+                        <li>Maintain a balanced diet rich in fruits, vegetables, and whole grains for optimal nutrition
+                        </li>
+                        <li>Ensure adequate sleep by establishing a consistent bedtime routine of 7-9 hours each night
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="testimonials-title">Testimonials</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-content text-center">
+                                    <img src="assets/images/headshots/john_doe.png" alt="Sarah Johnson"
+                                        class="testimonial-headshot">
+                                    <p class="testimonial-text">"Seven Seas Spa has transformed my life! The
+                                        professionals are incredibly skilled and the atmosphere is so peaceful. I've
+                                        never felt more relaxed."</p>
+                                    <p class="testimonial-author">- Sarah Johnson</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-content text-center">
+                                    <img src="assets/images/headshots/jane_smith.png" alt="Michael Chen"
+                                        class="testimonial-headshot">
+                                    <p class="testimonial-text">"I can't recommend Seven Seas Spa enough. Their wellness
+                                        programs have helped me manage my stress and improve my overall well-being.
+                                        Truly exceptional!"</p>
+                                    <p class="testimonial-author">- Michael Chen</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-content text-center">
+                                    <img src="assets/images/headshots/emily_johnson.png" alt="Emily Rodriguez"
+                                        class="testimonial-headshot">
+                                    <p class="testimonial-text">"The yoga classes and nutritional advice at Seven Seas
+                                        Spa are outstanding. I feel healthier and more balanced than ever before."</p>
+                                    <p class="testimonial-author">- Emily Rodriguez</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-content text-center">
+                                    <img src="assets/images/headshots/john_doe.png" alt="David Thompson"
+                                        class="testimonial-headshot">
+                                    <p class="testimonial-text">"Seven Seas Spa is my sanctuary. The staff is friendly,
+                                        knowledgeable, and truly dedicated to helping clients achieve their wellness
+                                        goals."</p>
+                                    <p class="testimonial-author">- David Thompson</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-auto text-white py-4" style="background-color: #6F4E37;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <p class="mb-0">&copy; 2025 Seven Seas Spa. All rights reserved.</p>
+                </div>
+                <div class="col-12 col-md-6 text-md-end mt-3 mt-md-0">
+                    <div class="social-links my-4">
+                        <a href="https://www.facebook.com/SevenSeasSpa" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visit Seven Seas Spa on Facebook" class="text-white me-3">
+                            <i class="fab fa-facebook" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sevenseaspa" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visit Seven Seas Spa on Instagram" class="text-white me-3">
+                            <i class="fab fa-instagram" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="https://www.twitter.com/SevenSeasSpa" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visit Seven Seas Spa on Twitter" class="text-white me-3">
+                            <i class="fab fa-twitter" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/sevenseaspa" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visit Seven Seas Spa on LinkedIn" class="text-white">
+                            <i class="fab fa-linkedin" style="font-size: 1.5rem;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
