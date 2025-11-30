@@ -45,26 +45,21 @@
     color: #3b2f2f;
 }
 
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 2.5rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.1rem;
-    }
-}
-
 .services {
     background-color: #f8f9fa;
     padding: 3rem 0;
 }
 
-.services-title {
+section .section-title {
     font-family: "Handlee", cursive;
     font-size: 2.5rem;
     color: #3b2f2f;
     margin-bottom: 2rem;
+}
+
+section h4.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .services .card {
@@ -96,13 +91,6 @@
     padding: 1.5rem 0;
 }
 
-.wellness-tips-title {
-    font-family: "Handlee", cursive;
-    font-size: 2.5rem;
-    color: #3b2f2f;
-    margin-bottom: 1.5rem;
-}
-
 .wellness-tips-text {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -118,13 +106,6 @@
 .testimonials {
     background-color: #f8f9fa;
     padding: 3rem 0;
-}
-
-.testimonials-title {
-    font-family: "Handlee", cursive;
-    font-size: 2.5rem;
-    color: #3b2f2f;
-    margin-bottom: 2rem;
 }
 
 .testimonial-content {
@@ -181,4 +162,14 @@
 
 .social-links a:hover {
     opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
 }
